@@ -51,7 +51,7 @@ function redirectToSignupPage() {
   button.addEventListener('click', () => {
     spinner.classList.remove('hidden');
     setTimeout(() => {
-      window.location.href = '../../../src/pages/signup.html'
+      window.location.href = './src/pages/signup.html'
     }, 1000)
   })
 }
