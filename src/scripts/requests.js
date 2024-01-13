@@ -1,6 +1,7 @@
 import { toast } from "./toasts.js";
 
-const baseUrl = 'http://localhost:3333';
+// API deployed using Prisma and Render.com
+const baseUrl = 'https://pet-info-api-5kzz.onrender.com';
 export const colorSuccess = '#087d5a';
 export const colorError = '#c83751';
 
